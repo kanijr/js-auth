@@ -89,7 +89,6 @@ export class Form {
 
   setAlert = (status, text) => {
     const el = document.querySelector('.alert')
-    console.log(el)
 
     if (status === 'progress') {
       el.className = 'alert alert--progress'
