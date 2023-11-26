@@ -68,7 +68,7 @@
     z-index: 1;
 
     .field__option {
-      @include s.click();
+      @include s.click;
 
       &:not(:last-of-type) {
         padding-bottom: s.space(4);
