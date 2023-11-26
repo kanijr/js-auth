@@ -49,5 +49,12 @@ body {
   &__title {
     font-size: 24px;
     color: s.color(dark);
+    font-weight: bold;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 21px;
+    color: s.color(gray);
   }
 }
